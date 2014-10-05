@@ -90,11 +90,7 @@
       </div>
     </div>
 
-<div class="container">
-&nbsp;</br>&nbsp;
-</div>
-
-    <div id="fullscreencontainer" class="container">
+    <div id="fullscreencontainer">
       
      
       <?php if ($page['key']): ?><div id="key"><?php print render($page['key']); ?></div><?php endif; ?>
@@ -118,8 +114,3 @@
        
       </div><!-- /.container -->
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>

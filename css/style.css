@@ -8,7 +8,7 @@ font-family:helveticaneue-light;
 
 p {
   font-family:helveticaneue-light;
-  font-size:18px;
+  font-size:16px;
   max-width:640px;
 }
 /*End fonts etc.*/
@@ -23,7 +23,6 @@ height: 100%;
 
 body {
 position: absolute;
-padding-top: 10px;
 }
 
 #fullscreencontainer {
@@ -32,7 +31,7 @@ padding: 0;
 
 .mapview {
 position: fixed;
-height: 100%;
+height: 100%; 
 width: 100%;
 margin: 0px;
 padding: 0px;
@@ -40,7 +39,13 @@ padding: 0px;
 
 .leaflet-map-pane {
 position: fixed;
-height: 100%;
+height: 100% !important;
+width: 100%;
+}
+
+#leaflet-map {
+position: fixed;
+height: 100% !important;
 width: 100%;
 }
 
@@ -51,12 +56,73 @@ width: 100%;
 }
 /*End main fullscreen map*/ 
 
+.leaflet-popup-content {
+margin: 0px 0px;
+}
+
+/* Youtube videos */
+.media-youtube-player {
+	width:290px !important;
+	height:175px !important;
+}
+
+/*Vimeo Videos */
+.media-vimeo-player {
+	width:290px !important;
+	height:175px !important;
+}
+
+
+
+/* Leaflet popup overrides */
+.leaflet-popup-content-wrapper {
+	max-height: 350px;
+  	overflow-y: scroll; /* has to be scroll, not auto */
+  	-webkit-overflow-scrolling: touch;
+  	margin-top: 30px;
+  	padding: 0px;
+}
+
+.leaflet-popup-close-button {
+display: none;
+}
+
+/* Popup interface */
+
+.glyphicon-pencil {
+margin-right: 3px;
+}
+
+.popuptitle {
+margin: 5px;
+text-align: center;
+text-decoration: underline;
+font-family: georgia;
+}
+
+.popupbody {
+margin: 5px;
+}
+
+
+/* Leaflet overrides */
+.leaflet-control-zoom {
+	position: fixed;
+	bottom: 10px;
+	left: 1px;
+}
+
 
 /*Map Key*/
 .key {
 position: relative
 }
 /*End map key*/
+
+
+
+
+
 
 
 /*Leaflet marker cluster mods*/
