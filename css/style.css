@@ -122,11 +122,13 @@ position: relative
 
 
 
+.leaflet-top .leaflet-control {
+margin-top: 30px;
+}
 
 
-
-/*Leaflet marker cluster mods*/
-.marker-cluster-small {
+/* 
+Leaflet marker cluster mods.marker-cluster-small {
 	background-color: rgba(255, 216, 67, 0.6);
 	}
 .marker-cluster-small div {
@@ -164,6 +166,8 @@ position: relative
 .marker-cluster span {
 	line-height: 30px;
 	}
+ */
+
 	
 /****Default markers****/
 /*
