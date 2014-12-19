@@ -1,3 +1,17 @@
+#leaflet-map {
+position:fixed;
+top: 0px;
+left: 0px;
+width: 100% !important;
+height: 100% !important;
+}
+
+.leaflet-control-zoom {
+position: fixed;
+bottom: 10px;
+left: 5px;
+}
+
 /**Custom code**/
 
 /*Fonts etc.*/
@@ -12,49 +26,6 @@ p {
   max-width:640px;
 }
 /*End fonts etc.*/
-
-
-/*Main fullscreen map*/
-html {
-position: absolute;
-width: 100%;
-height: 100%;
-}
-
-body {
-position: absolute;
-}
-
-#fullscreencontainer {
-padding: 0;
-}
-
-.mapview {
-position: fixed;
-height: 100%; 
-width: 100%;
-margin: 0px;
-padding: 0px;
-}
-
-.leaflet-map-pane {
-position: fixed;
-height: 100% !important;
-width: 100%;
-}
-
-#leaflet-map {
-position: fixed;
-height: 100% !important;
-width: 100%;
-}
-
-.ip-geoloc-map, .leaflet-view, .markers {
-position: fixed;
-height: 100%;
-width: 100%;
-}
-/*End main fullscreen map*/ 
 
 .leaflet-popup-content {
 margin: 0px 0px;
@@ -71,7 +42,6 @@ margin: 0px 0px;
 	width:290px !important;
 	height:175px !important;
 }
-
 
 
 /* Leaflet popup overrides */
@@ -105,92 +75,27 @@ margin: 5px;
 }
 
 
-/* Leaflet overrides */
-.leaflet-control-zoom {
-	position: fixed;
-	bottom: 10px;
-	left: 1px;
-}
 
-
-/*Map Key*/
-.key {
-position: relative
-}
-/*End map key*/
-
-
-
-
-.leaflet-top .leaflet-control {
-margin-top: 30px;
-}
-
-
-/* 
-Leaflet marker cluster mods.marker-cluster-small {
-	background-color: rgba(255, 216, 67, 0.6);
-	}
-.marker-cluster-small div {
-	background-color: rgba(252, 164, 75, 0.6);
-	}
-
-.marker-cluster-medium {
-	background-color: rgba(255, 216, 67, 0.6);
-	}
-.marker-cluster-medium div {
-	background-color: rgba(252, 164, 75, 0.6);
-	}
-
-.marker-cluster-large {
-	background-color: rgba(255, 216, 67, 0.6);
-	}
-.marker-cluster-large div {
-	background-color: rgba(252, 164, 75, 0.6);
-	}
-
-.marker-cluster {
-	background-clip: padding-box;
-	border-radius: 20px;
-	}
-.marker-cluster div {
-	width: 30px;
-	height: 30px;
-	margin-left: 5px;
-	margin-top: 5px;
-
-	text-align: center;
-	border-radius: 15px;
-	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
-	}
-.marker-cluster span {
-	line-height: 30px;
-	}
- */
-
-	
-/****Default markers****/
-/*
-
+/*Leaflet marker cluster mods*/
 .marker-cluster-small {
-	background-color: rgba(181, 226, 140, 0.6);
+	background-color: rgba(255, 216, 67, 0.6);
 	}
 .marker-cluster-small div {
-	background-color: rgba(110, 204, 57, 0.6);
+	background-color: rgba(252, 164, 75, 0.6);
 	}
 
 .marker-cluster-medium {
-	background-color: rgba(241, 211, 87, 0.6);
+	background-color: rgba(255, 216, 67, 0.6);
 	}
 .marker-cluster-medium div {
-	background-color: rgba(240, 194, 12, 0.6);
+	background-color: rgba(252, 164, 75, 0.6);
 	}
 
 .marker-cluster-large {
-	background-color: rgba(253, 156, 115, 0.6);
+	background-color: rgba(255, 216, 67, 0.6);
 	}
 .marker-cluster-large div {
-	background-color: rgba(241, 128, 23, 0.6);
+	background-color: rgba(252, 164, 75, 0.6);
 	}
 
 .marker-cluster {
@@ -210,6 +115,3 @@ Leaflet marker cluster mods.marker-cluster-small {
 .marker-cluster span {
 	line-height: 30px;
 	}
-	
-	*/
-/*End Leaflet marker cluster mods*/
