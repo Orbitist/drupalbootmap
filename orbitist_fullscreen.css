@@ -1,0 +1,13 @@
+#leaflet-map {
+position:fixed;
+top: 0px;
+left: 0px;
+width: 100% !important;
+height: 100% !important;
+}
+
+.leaflet-control-zoom {
+position: fixed;
+bottom: 10px;
+left: 5px;
+}
