@@ -1,4 +1,5 @@
 .piece {
+display: inline-block;
 position: relative;
 width: 100%;
 border-style: solid;
