@@ -1,6 +1,6 @@
 .piece {
 padding: 50px;
-border: 1px;
+border-width: 1px;
 }
 
 .piece-icon {
