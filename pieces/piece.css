@@ -1,5 +1,5 @@
 .piece {
-position: absolute;
+position: relative;
 width: 100%;
 padding: 50px;
 border-style: solid;
