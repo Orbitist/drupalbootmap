@@ -10,7 +10,7 @@ float: left;
 }
 
 .piece-content {
-
+position: absolute;
 }
 
 .piece-action {
