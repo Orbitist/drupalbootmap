@@ -1,17 +1,4 @@
-/**Custom code**/
-
-/*Fonts etc.*/
-h1{
-font-size: 3em;
-font-family:helveticaneue-light;
-}
-
-p {
-  font-family:helveticaneue-light;
-  font-size:16px;
-  max-width:640px;
-}
-/*End fonts etc.*/
+/* Leaflet popups */
 
 .leaflet-popup-content {
 margin: 0px 0px;
@@ -19,24 +6,24 @@ margin: 0px 0px;
 
 /* Youtube videos */
 .media-youtube-player {
-	width:290px !important;
-	height:175px !important;
+width:290px !important;
+height:175px !important;
 }
 
 /*Vimeo Videos */
 .media-vimeo-player {
-	width:290px !important;
-	height:175px !important;
+width:290px !important;
+height:175px !important;
 }
 
 
 /* Leaflet popup overrides */
 .leaflet-popup-content-wrapper {
-	max-height: 350px;
-  	overflow-y: scroll; /* has to be scroll, not auto */
-  	-webkit-overflow-scrolling: touch;
-  	margin-top: 30px;
-  	padding: 0px;
+max-height: 350px;
+overflow-y: scroll; /* has to be scroll, not auto */
+-webkit-overflow-scrolling: touch;
+margin-top: 30px;
+padding: 0px;
 }
 
 .leaflet-popup-close-button {
@@ -64,40 +51,42 @@ margin: 5px;
 
 /*Leaflet marker cluster mods*/
 .marker-cluster-small {
-	background-color: rgba(255, 216, 67, 0.6);
-	}
+background-color: rgba(255, 216, 67, 0.6);
+}
 .marker-cluster-small div {
-	background-color: rgba(252, 164, 75, 0.6);
-	}
+background-color: rgba(252, 164, 75, 0.6);
+}
 
 .marker-cluster-medium {
-	background-color: rgba(255, 216, 67, 0.6);
-	}
+background-color: rgba(255, 216, 67, 0.6);
+}
+
 .marker-cluster-medium div {
-	background-color: rgba(252, 164, 75, 0.6);
-	}
+background-color: rgba(252, 164, 75, 0.6);
+}
 
 .marker-cluster-large {
-	background-color: rgba(255, 216, 67, 0.6);
-	}
+background-color: rgba(255, 216, 67, 0.6);
+}
+
 .marker-cluster-large div {
-	background-color: rgba(252, 164, 75, 0.6);
-	}
+background-color: rgba(252, 164, 75, 0.6);
+}
 
 .marker-cluster {
-	background-clip: padding-box;
-	border-radius: 20px;
-	}
+background-clip: padding-box;
+border-radius: 20px;
+}
 .marker-cluster div {
-	width: 30px;
-	height: 30px;
-	margin-left: 5px;
-	margin-top: 5px;
+width: 30px;
+height: 30px;
+margin-left: 5px;
+margin-top: 5px;
 
-	text-align: center;
-	border-radius: 15px;
-	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
-	}
+text-align: center;
+border-radius: 15px;
+font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
 .marker-cluster span {
-	line-height: 30px;
-	}
+line-height: 30px;
+}
