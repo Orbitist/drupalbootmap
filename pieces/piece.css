@@ -1,8 +1,9 @@
 .piece {
 width: 100%;
+padding: 20px;
 border-style: solid;
 border-width: 1px;
-padding: 20px;
+margin: 20px;
 }
 
 .piece-icon {
