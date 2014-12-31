@@ -3,7 +3,8 @@ padding: 50px;
 }
 
 .piece-icon {
-
+position: absolute;
+left: 5px;
 }
 
 .piece-content {
