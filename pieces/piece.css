@@ -2,6 +2,7 @@
 width: 100%;
 border-style: solid;
 border-width: 1px;
+margin: 20px;
 }
 
 .piece-icon {
@@ -9,6 +10,7 @@ float: left;
 }
 
 .piece-content {
+float: center;
 }
 
 .piece-action {
