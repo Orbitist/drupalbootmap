@@ -5,18 +5,12 @@ border-width: 1px;
 }
 
 .piece-icon {
-position: absolute;
-margin: 20px;
-left: 5px;
+float: left;
 }
 
 .piece-content {
-position: absolute;
-margin: 20px;
 }
 
 .piece-action {
-position: absolute;
-margin: 20px;
-right: 5px;
+float: right;
 }
