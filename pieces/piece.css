@@ -12,5 +12,6 @@ left: 5px;
 }
 
 .piece-action {
-
+position: absolute;
+right: 5px;
 }
