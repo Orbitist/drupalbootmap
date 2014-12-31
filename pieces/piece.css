@@ -9,12 +9,15 @@ border-color: gray;
 }
 
 .piece-icon {
+position: absolute;
 left: 5px;
 }
 
 .piece-content {
+position: absolute;
 }
 
 .piece-action {
+position: absolute;
 right: 5px;
 }
