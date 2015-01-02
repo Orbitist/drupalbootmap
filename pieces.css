@@ -4,11 +4,10 @@ margin-right: 5px;
 }
 
 .piece-map-left {
-text-align: left;
-width: 25%;
 font-size: 100px;
 padding: 50px;
 background-color: #1e5d81;
+width: 100px;
 }
 
 .piece-map .container {
