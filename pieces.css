@@ -15,6 +15,14 @@ border-bottom-left-radius: 3px;
 border-top-left-radius: 3px;
 }
 
+.piece-map-right {
+font-size: 50px;
+text-align: center;
+padding: 25px;
+width: 100px;
+height: 100px;
+}
+
 .piece-map .container {
 display: block;
 padding: 0px;
