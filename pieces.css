@@ -4,15 +4,17 @@ margin-right: 5px;
 }
 
 .piece-map-left {
+position: absolute;
 text-align: left;
+width: fixed;
 font-size: 100px;
 padding: 50px;
-background-color: gray;
+background-color: #1e5d81;
 }
 
 .piece-map .container {
 display: block;
-padding: 4px;
+padding: 0px;
 margin-bottom: 20px;
 line-height: 1.42857143;
 background-color: #fff;
