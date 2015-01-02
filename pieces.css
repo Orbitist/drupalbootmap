@@ -4,9 +4,8 @@ margin-right: 5px;
 }
 
 .piece-map-left {
-position: absolute;
 text-align: left;
-width: fixed;
+width: 25%;
 font-size: 100px;
 padding: 50px;
 background-color: #1e5d81;
