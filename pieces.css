@@ -1,13 +1,13 @@
-.piece-icon-large {
-text-align: center;
-font-size: 100px;
-padding: 50px;
-}
-
-
 .piece-map {
 margin-left: 5px;
 margin-right: 5px;
+}
+
+.piece-map-left {
+text-align: left;
+font-size: 100px;
+padding: 50px;
+background-color: gray;
 }
 
 .piece-map .container {
