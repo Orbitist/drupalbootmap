@@ -16,7 +16,6 @@ border-top-left-radius: 3px;
 }
 
 .piece-map-right {
-position: absolute;
 right: 0px;
 font-size: 50px;
 text-align: center;
