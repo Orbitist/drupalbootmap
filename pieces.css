@@ -6,7 +6,8 @@ margin-right: 5px;
 
 .piece-map-left {
 font-size: 50px;
-padding: 25px 20px 25px 25px;
+text-align: center;
+padding: 25px;
 background-color: #1e5d81;
 width: 100px;
 height: 100px;
