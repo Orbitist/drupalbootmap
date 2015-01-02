@@ -4,10 +4,11 @@ margin-right: 5px;
 }
 
 .piece-map-left {
-font-size: 100px;
-padding: 50px;
+font-size: 50px;
+padding: 25px;
 background-color: #1e5d81;
 width: 100px;
+height: 200px;
 }
 
 .piece-map .container {
