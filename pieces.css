@@ -16,6 +16,7 @@ border-top-left-radius: 3px;
 }
 
 .piece-map-right {
+float: right;
 font-size: 50px;
 text-align: center;
 padding: 25px;
