@@ -1,3 +1,11 @@
+a {
+color: rgba(30,93,129,0.8);
+}
+
+a:hover {
+color: rgba(30,93,129,1);
+}
+
 .code {
 word-wrap: break-word;
 font-size: 12px;
@@ -8,6 +16,11 @@ font-family: monospace;
 .logo img {
 width: 35px;
 border-radius: 8px;
+opacity: 0.6;
+}
+
+.logo img:hover {
+opacity: 1;
 }
 
 /** Orbitist Buttons **/
@@ -88,4 +101,9 @@ border-radius: 4px;
 .field-use-geocoder-submit {
 margin-bottom: 6px;
 width: 100%;
+}
+
+/** Node Submission **/
+.media-item {
+width: 300px;
 }
