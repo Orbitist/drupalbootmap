@@ -16,11 +16,18 @@ function hrefquerystring2() {
      anchor.href = anchor + window.location.search;
 } 
 
+// any anchor with id 'hrefquerystring3' (for 3nd instances) will add the current url querystring to the end of its href attribute
+function hrefquerystring3() { 
+     var anchor = document.getElementById("hrefquerystring3"); 
+     anchor.href = anchor + window.location.search;
+} 
+
 // run both functions in 'querystrings' function
 function querystrings() {
   querystring();
   hrefquerystring();
   hrefquerystring2();
+  hrefquerystring3();
 }
 
 //run 'querystrings'

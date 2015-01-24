@@ -1,5 +1,9 @@
 /* Leaflet popups */
 
+.leaflet-popup {
+margin-bottom: -15px;
+}
+
 .leaflet-popup-content {
 margin: 0px 0px;
 }
@@ -75,6 +79,7 @@ font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
 line-height: 30px;
 }
 
+
 /* Youtube videos */
 .popupbody .media-youtube-player {
 width:290px !important;
@@ -85,4 +90,10 @@ height:175px !important;
 .popupbody .media-vimeo-player {
 width:290px !important;
 height:175px !important;
+}
+
+/* Markers */
+.leaflet-tagged-marker i {
+font-size: 35px;
+padding-top: 4px;
 }

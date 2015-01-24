@@ -107,3 +107,10 @@ width: 100%;
 .media-item {
 width: 300px;
 }
+
+/** List view **/
+.view-points-list .btn {
+width: 100%;
+margin-top: 5px;
+margin-bottom: 5px;
+}
