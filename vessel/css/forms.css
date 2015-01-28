@@ -1,0 +1,8 @@
+/** Video previews in forms **/
+iframe.media-youtube-player {
+max-width: 100%;
+}
+
+iframe.media-vimeo-player {
+max-width: 100%;
+}
