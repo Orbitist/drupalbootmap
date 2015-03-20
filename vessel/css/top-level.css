@@ -87,6 +87,7 @@ margin-top: -15px;
 
 .views-exposed-form .views-exposed-widget {
 padding: 0px;
+width: 100%;
 }
 
 /** Map Widget **/
@@ -113,4 +114,21 @@ width: 300px;
 width: 100%;
 margin-top: 5px;
 margin-bottom: 5px;
+}
+
+/** Make dropdown menus top of everything **/
+.dropdown-menu {
+z-index: 10000;
+}
+
+/** Big icons **/
+.big-icon {
+font-size: 80px;
+padding-top: 40px;
+text-align: center;
+}
+
+/** mapp-tile **/
+.mapp-tile {
+text-align: center;
 }

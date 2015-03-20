@@ -22,6 +22,17 @@ display: none;
 }
 
 /* Custom popup regions */
+.popupimage-expand {
+font-size: 30px;
+margin-top: -45px;
+margin-right: 8px;
+text-align: right;
+color: #eee;
+}
+.popupimage-expand:hover {
+color: #fff;
+}
+
 .popuptitle {
 margin: 5px;
 text-align: center;

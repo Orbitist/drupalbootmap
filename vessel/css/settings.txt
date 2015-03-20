@@ -1,0 +1,36 @@
+Embed
+add on only the listed pages.
+embed/*
+embed-satellite/*
+embed-watercolor/*
+embed-pirate/*
+embed-dark/*
+embed-light/*
+
+Forms
+add on only the listed pages.
+node/add/*
+
+Fullscreen
+add on only the listed pages.
+fullscreen/*
+fullscreen-satellite/*
+fullscreen-watercolor/*
+fullscreen-pirate/*
+fullscreen-dark/*
+fullscreen-light/*
+fullscreen-grid/*
+fullscreen-satellite-grid/*
+fullscreen-watercolor-grid/*
+fullscreen-pirate-grid/*
+fullscreen-dark-grid/*
+fullscreen-light-grid/*
+
+Lightbox
+Add on every page except the listed pages.
+
+Popups/leaflet overrides
+Add on every page except the listed pages.
+
+Top Level
+Add on every page except the listed pages.
