@@ -1,11 +1,24 @@
 /* Leaflet popups */
-
 .leaflet-popup {
 margin-bottom: -15px;
+z-index: 50;
 }
 
 .leaflet-popup-content {
 margin: 0px 0px;
+z-index: 50;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+margin-top: 22px;
+margin-right: -10px;
+padding: 4px 3px 3px 4px;
+width: 25px;
+height: 25px;
+background-color: white;
+border-radius: 50%;
+box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+z-index: 55;
 }
 
 .leaflet-popup-content-wrapper {
@@ -15,10 +28,7 @@ overflow-y: scroll; /* has to be scroll, not auto */
 margin-top: 30px;
 padding: 0px;
 border-radius: 4px;
-}
-
-.leaflet-popup-close-button {
-display: none;
+z-index: 50;
 }
 
 /* Custom popup regions */
@@ -52,6 +62,13 @@ margin-top: 10px;
 
 .popupbody .btn {
 width: 100%;
+}
+
+/* Remove zoom controls on small screens */
+@media (max-width: 767px) {
+.leaflet-control-zoom {
+display: none;
+}
 }
 
 /* Leaflet marker cluster mods */
